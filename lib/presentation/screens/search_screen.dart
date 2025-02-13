@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ott102/common/color.dart';
-
 import '../../common/tab_type.dart';
 
 class SearchScreen extends StatelessWidget {

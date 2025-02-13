@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ott102/data/repositories/shared_pref_repository.dart';
 import 'package:ott102/domain/use_cases/profile_use_case.dart';
 import 'package:ott102/main.dart';
 import '../../common/color.dart';
@@ -112,13 +111,6 @@ class _CreateProfileScreenState extends State<CreateProfileScreen> {
                     child: Container(
                       alignment: Alignment.center,
                       height: 55,
-                      child: Text(
-                        '저장하기',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
-                      ),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(8)),
                           gradient: LinearGradient(
@@ -128,6 +120,13 @@ class _CreateProfileScreenState extends State<CreateProfileScreen> {
                                 Color(0xFFF7AE06),
                                 Color(0xFFF77602),
                               ])),
+                      child: Text(
+                        '저장하기',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ),
                 ],

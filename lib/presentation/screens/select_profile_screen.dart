@@ -1,14 +1,10 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:ott102/presentation/providers/main_provider.dart';
 import 'package:ott102/presentation/providers/select_profile_provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../../common/color.dart';
 import '../components/launch/empty_profile_card.dart';
-import '../providers/create_profile_provider.dart';
 import 'create_profile_screen.dart';
-import '../../data/models/profile_model.dart';
-import '../components/widget/custom_bottom_navigation.dart'; // ProfileModel import 필요
+import '../components/widget/custom_bottom_navigation.dart';
 
 class SelectProfileScreen extends StatefulWidget {
   const SelectProfileScreen({super.key});

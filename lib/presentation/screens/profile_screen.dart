@@ -3,8 +3,6 @@ import 'package:ott102/presentation/providers/main_provider.dart';
 import 'package:ott102/presentation/providers/select_profile_provider.dart';
 import '../../common/color.dart';
 import '../../common/tab_type.dart';
-import '../../data/models/profile_model.dart';
-import '../providers/create_profile_provider.dart';
 import 'create_profile_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -117,7 +115,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               ),
               const SizedBox(height: 10),
-              _profileList('프로필'),
+              _profileList('프로필 수정'),
               _profileList('언어 변경'),
               _profileList('새 기기 연결하기'),
               _profileList('앱 권한 설정'),

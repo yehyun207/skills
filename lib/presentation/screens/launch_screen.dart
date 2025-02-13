@@ -39,13 +39,13 @@ class _LaunchScreenState extends State<LaunchScreen> {
             offset: Offset(0, launchProvider.isStartAppBarAnimation ? 0 : -1),
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 60, vertical: 26),
-              child: Image.asset(
-                'assets/images/worldskills_logo.png',
-              ),
               decoration: BoxDecoration(
                   color: whiteColor,
                   borderRadius:
                       BorderRadius.vertical(bottom: Radius.circular(18))),
+              child: Image.asset(
+                'assets/images/worldskills_logo.png',
+              ),
             ),
           ),
           Spacer(flex: 1),

@@ -1,14 +1,10 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:ott102/common/color.dart';
 import 'package:ott102/presentation/providers/main_provider.dart';
 import 'package:ott102/presentation/screens/comming_soon_screen.dart';
 import 'package:ott102/presentation/screens/download_screen.dart';
 import 'package:ott102/presentation/screens/home_screen.dart';
 import 'package:ott102/presentation/screens/profile_screen.dart';
 import 'package:ott102/presentation/screens/search_screen.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import '../../../data/models/profile_model.dart';
 
 class CustomBottomNavigationBar extends StatefulWidget {
   const CustomBottomNavigationBar({super.key});

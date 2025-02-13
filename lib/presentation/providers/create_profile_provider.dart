@@ -1,9 +1,6 @@
-import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:ott102/data/repositories/shared_pref_repository.dart';
 import 'package:ott102/domain/use_cases/profile_use_case.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../../data/models/profile_model.dart';
 
 class CreateProfileProvider extends ChangeNotifier {
