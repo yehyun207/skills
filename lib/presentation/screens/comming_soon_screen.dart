@@ -51,7 +51,7 @@ class _CommingSoonScreenState extends State<CommingSoonScreen> {
                 height: 10,
               ),
               Text(
-                '${mainProvider.topRatedMovieList[index].release_date.replaceAll('-', '.')} 예정',
+                '${mainProvider.topRatedMovieList[index].release_date.replaceAll('-', '.')}',
                 style: TextStyle(
                     color: Colors.white, fontWeight: FontWeight.w600),
               )

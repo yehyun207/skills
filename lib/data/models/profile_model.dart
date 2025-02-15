@@ -36,9 +36,9 @@ class ProfileModel {
     return {
       'id': id,
       'profileName': profileName,
-      'r': backgroundColor.red,
-      'g': backgroundColor.green,
-      'b': backgroundColor.blue,
+      'r': backgroundColor,
+      'g': backgroundColor,
+      'b': backgroundColor,
     };
   }
 
