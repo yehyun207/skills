@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ott102/presentation/providers/main_provider.dart';
-import 'package:ott102/presentation/screens/comming_soon_screen.dart';
+import 'package:ott102/presentation/screens/up_comming_screen.dart';
 import 'package:ott102/presentation/screens/download_screen.dart';
 import 'package:ott102/presentation/screens/home_screen.dart';
 import 'package:ott102/presentation/screens/profile_screen.dart';

@@ -59,7 +59,7 @@ class MainProvider extends ChangeNotifier {
   }
 
   void loadCommingSoonMovieList() async {
-    commingSoonMovieList = await movieRepository.getCommingSoonMovies();
+    commingSoonMovieList = await movieRepository.getUpCommingMovies();
     notifyListeners();
   }
 
